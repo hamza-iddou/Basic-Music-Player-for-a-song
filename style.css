@@ -21,13 +21,12 @@ body{
     align-items: center;
     padding: 25px 35px;
    
-    
-
 }
 nav{
     display: flex;
     justify-content: space-between;
     color: black;
+    padding: 20px;
 }
 .songimg{
     margin: 20px;
@@ -49,11 +48,12 @@ nav{
     width: 60px;
     height: 60px;
     margin: 20px;
-    background: #000000;
+   
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    transform: scale(2);
 }

@@ -24,14 +24,14 @@
         </div>
         <h1>Just For Me!</h1>
         <p>PinkPantheress</p>
-        <audio controls>
+        <audio  id="song">
             <source src="img/pinkpantheress - just for me (Official Video).mp3">
         </audio>
         <input type="range" value="0" id="progress">
         
         <div class="controls">
             <div><i class="fa-solid fa-backward"></i></div>
-            <div><i class="fa-solid fa-pause"></i></div>
+            <div><i onclick="playpause()" class="fa-solid fa-play" id="ctrlIcon"></i></div>
             <div><i class="fa-solid fa-forward"></i></div>
         </div>
     </div>
