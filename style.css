@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+.container{
+    background-color:  azure;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 25px 35px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.songimg{
+    margin: 20px;
+}
